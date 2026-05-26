@@ -1,7 +1,7 @@
 import { fetchUsers, fetchLeaderboard } from "../../services/api";
 import StudySessionForm from "../components/StudySessionForm";
 import LeaderboardList from "../components/LeaderboardList";
-import ProtectedRoute from "../components/ProtectedRouste";
+import ProtectedRoute from "../components/ProtectedRoute";
 
 
 export default async function HomePage() {

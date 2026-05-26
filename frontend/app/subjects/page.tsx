@@ -1,7 +1,7 @@
 import { fetchSubjects, fetchUsers } from "../../services/api";
 import SubjectsList from "../components/SubjectsList";
 import PageHeader from "../components/PageHeader";
-import ProtectedRoute from "../components/ProtectedRouste";
+import ProtectedRoute from "../components/ProtectedRoute";
 
 export default async function SubjectsPage() {
   const subjects = await fetchSubjects();

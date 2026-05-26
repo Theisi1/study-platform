@@ -1,7 +1,7 @@
 import { fetchStudySessions, fetchSubjects, fetchUsers } from "../../../services/api";
 import SessionsTable from "../../components/SessionsTable";
 import PageHeader from "@/app/components/PageHeader";
-import ProtectedRoute from "@/app/components/ProtectedRouste";
+import ProtectedRoute from "@/app/components/ProtectedRoute";
 
 type PageProps = {
   params: Promise<{

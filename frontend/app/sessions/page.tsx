@@ -1,7 +1,7 @@
 import { fetchStudySessions, fetchSubjects, fetchUsers } from "../../services/api";
 import SessionsTable from "../components/SessionsTable";
 import PageHeader from "../components/PageHeader";
-import ProtectedRoute from "../components/ProtectedRouste";
+import ProtectedRoute from "../components/ProtectedRoute";
 
 export default async function SessionsPage() {
   const [sessions, subjects, users] = await Promise.all([

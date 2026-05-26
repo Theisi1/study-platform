@@ -6,7 +6,6 @@ from app.models.study_session import StudySession
 from app.models.user import User
 from app.schemas.study_session import StudySessionCreate, StudySessionResponse
 from app.core.dependencies import get_current_user
-from app.models.user import User
 
 router = APIRouter(prefix="/study-sessions", tags=["Study Sessions"])
 

@@ -1,7 +1,7 @@
 import { fetchUsers } from "../../services/api";
 import UsersList from "../components/UsersList";
 import PageHeader from "../components/PageHeader";
-import ProtectedRoute from "../components/ProtectedRouste";
+import ProtectedRoute from "../components/ProtectedRoute";
 
 export default async function UsersPage() {
   const users = await fetchUsers();
